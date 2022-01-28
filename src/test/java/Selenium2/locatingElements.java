@@ -12,7 +12,7 @@ public class locatingElements {
         driver.get("http://facebook.com");
 
         driver.findElement(By.id("email")).sendKeys("ecaterina.burzacovschi@gmail.com");
-        driver.findElement(By.name("email")).sendKeys("katia");
+       // driver.findElement(By.name("email")).sendKeys("katia");
         driver.findElement(By.name("pass")).sendKeys("hghghghg");
         //driver.findElement(By.linkText("Forgot password?")).click();
        // driver.findElement(By.partialLinkText("Forgot ")).click();
